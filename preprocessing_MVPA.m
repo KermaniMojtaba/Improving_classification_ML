@@ -1,7 +1,11 @@
+%This code uses MVPA-Light, a Matlab toolbox for classification and regression of multi-dimensional data.
+% however, the routine works with any machine learning liberary
+
 % ft_defaults
 clear
-load('data_bi_ICA_filt_reRef.mat');
-load('data_mono_ICA_filt_reRef.mat');
+% load your data, must be in in two clases at least
+d1 = load ('data_A.mat');
+d2 = load('data_B.mat');
 
 
 
